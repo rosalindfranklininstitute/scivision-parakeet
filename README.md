@@ -3,13 +3,13 @@
 
 [![Building](https://github.com/rosalindfranklininstitute/parakeet/actions/workflows/python-package.yml/badge.svg)](https://github.com/rosalindfranklininstitute/parakeet/actions/workflows/python-package.yml)
 
-## Installation:
+## Installation
 
 ```
 pip install git+https://github.com/rosalind-franklin-institute/scivision-parakeet.git
 ```
 
-## Usage:
+## Usage
 
 ```python
 import intake
