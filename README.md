@@ -1,16 +1,15 @@
 # scivision-parakeet
-Parakeet plugin for scivision framework
+> Provides an [Intake](https://intake.readthedocs.io/en/latest/index.html) interface to synthetic cryoEM images from [Parakeet](https://github.com/rosalindfranklininstitute/parakeet).
 
+[![Building](https://github.com/rosalindfranklininstitute/parakeet/actions/workflows/python-package.yml/badge.svg)](https://github.com/rosalindfranklininstitute/parakeet/actions/workflows/python-package.yml)
 
-Provides an [Intake](https://intake.readthedocs.io/en/latest/index.html) interface to synthetic cryoEM images from [Parakeet](https://github.com/rosalindfranklininstitute/parakeet).
-
-Installation:
+## Installation:
 
 ```
 pip install git+https://github.com/rosalind-franklin-institute/scivision-parakeet.git
 ```
 
-Usage:
+## Usage:
 
 ```python
 import intake
@@ -31,3 +30,8 @@ ds = intake.open_scivision_parakeet(
 
 data = ds.read()
 ```
+
+## Issues
+
+Please use the [GitHub issue tracker](https://github.com/rosalindfranklininstitute/parakeet/issues) to submit bugs or request features.
+
