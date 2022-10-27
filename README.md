@@ -1,7 +1,7 @@
 # scivision-parakeet
 > Provides an [Intake](https://intake.readthedocs.io/en/latest/index.html) interface to synthetic cryoEM images from [Parakeet](https://github.com/rosalindfranklininstitute/parakeet).
 
-[![Building](https://github.com/rosalindfranklininstitute/parakeet/actions/workflows/python-package.yml/badge.svg)](https://github.com/rosalindfranklininstitute/parakeet/actions/workflows/python-package.yml)
+[![Building](https://github.com/rosalindfranklininstitute/scivision-parakeet/actions/workflows/python-package.yml/badge.svg)](https://github.com/rosalindfranklininstitute/scivision-parakeet/actions/workflows/python-package.yml)
 
 ## Installation
 
