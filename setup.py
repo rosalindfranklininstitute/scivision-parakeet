@@ -18,7 +18,7 @@ def main():
     tests_require = ["pytest", "pytest-cov"]
 
     setup(
-        packages=["scivision-parakeet"],
+        packages=["scivision_parakeet"],
         install_requires=[
             "python-parakeet",
             "intake",
