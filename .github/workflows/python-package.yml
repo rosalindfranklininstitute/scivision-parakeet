@@ -48,7 +48,7 @@ jobs:
         export CUDACXX=/usr/local/cuda-11/bin/nvcc        
         python -m pip install -e .
     - name: Run black --check
-      run: black --check src tests
+      run: black --check .
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
@@ -57,7 +57,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Check typing with mypy
       run: |
-        mypy src/ tests/ --ignore-missing
+        mypy . --ignore-missing
     - name: Test with pytest
       run: |
         pytest
