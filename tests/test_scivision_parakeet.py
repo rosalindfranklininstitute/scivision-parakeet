@@ -4,7 +4,6 @@ from typing import Callable
 
 
 def test_default_usage(tmpdir):
-    print(1, tmpdir)
     assert isinstance(intake.open_scivision_parakeet, Callable)
 
     ds = intake.open_scivision_parakeet(directory=os.path.join(tmpdir, "parakeet_data"))
@@ -15,7 +14,6 @@ def test_default_usage(tmpdir):
 
 
 def test_usage(tmpdir):
-    print(2, tmpdir)
     assert isinstance(intake.open_scivision_parakeet, Callable)
     config = {
         "sample": {"molecules": {"pdb": [{"id": "4v1w", "instances": 1}]}},

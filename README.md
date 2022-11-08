@@ -9,6 +9,14 @@
 pip install git+https://github.com/rosalind-franklin-institute/scivision-parakeet.git
 ```
 
+> **_NOTE:_** Because the package needs to be built locally from source and has
+some external dependencies you may need to ensure your environment is ready before
+running this command. You need to set the location of the CUDA compiler and
+possibly G++ and FFTW libraries. For full instructions please see the
+installation documentation
+[here](https://rosalindfranklininstitute.github.io/parakeet/installation.html).
+
+
 ## Usage
 
 ```python
@@ -30,8 +38,3 @@ ds = intake.open_scivision_parakeet(
 
 data = ds.read()
 ```
-
-## Issues
-
-Please use the [GitHub issue tracker](https://github.com/rosalindfranklininstitute/parakeet/issues) to submit bugs or request features.
-
