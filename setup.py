@@ -18,6 +18,8 @@ def main():
     tests_require = ["pytest", "pytest-cov"]
 
     setup(
+        name="scivision-parakeet",
+        version="0.0.1",
         packages=["scivision_parakeet"],
         install_requires=[
             "python-parakeet",
