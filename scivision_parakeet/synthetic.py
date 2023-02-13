@@ -40,7 +40,6 @@ class ParakeetSource(intake.source.base.DataSource):
         import os
 
         if self._ds is None:
-
             # Set the filenames
             sample_file = os.path.join(self._directory, "sample.h5")
             exit_wave_file = os.path.join(self._directory, "exit_wave.h5")
